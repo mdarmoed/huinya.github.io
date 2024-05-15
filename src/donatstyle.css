@@ -1,0 +1,158 @@
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+.content-cont p{
+  color: gray;
+  text-align: start;
+  text-indent: 5px;
+  margin-bottom: 5px;
+  
+}
+
+
+.coontainer {
+  margin: 10px auto;
+  max-width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('https://edisonprint.ru/assets/images/products/274/h0144.jpg');
+  margin-bottom: 3rem;
+}
+
+
+
+
+.donation-form {
+  min-width: 400px;
+  border: 9px solid rgb(255, 224, 228);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+
+.donation-form h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+.krd-dnt,
+.inp-dnt,
+.txt-dnt {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-dnt{
+  width: 100%;
+  padding: 10px;
+  background-color: #cc848f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  padding: 10px 20px;
+
+
+}
+
+.btn-dnt:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+
+
+.donate-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.donate-buttons label {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eba0ac;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.donate-buttons input[type="radio"] {
+  display: none;
+}
+
+.donate-buttons input[type="radio"]:checked + label {
+  background-color: black;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  18% { color: orange; }
+  36% { color: yellow; }
+  52% { color: green; }
+  70% { color: blue; }
+  88% { color: #00cfff; }
+  100% { color: #6600ff; } 
+
+}
+
+.donate-buttons label:hover {
+  background-color: #fb8484;
+  color: white;
+}
+
+.butt {
+  padding: 10px 20px;
+  background-color: #ebbfe1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.butt:hover {
+  background-color: red;
+}
+
+
+
+.big-text{
+  width: 45%;
+  height: auto;
+  font-size: 60px;
+
+}
+.big-text p{
+  font-weight: bolder;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.28);
+  color: rgb(255, 255, 255);
+}
