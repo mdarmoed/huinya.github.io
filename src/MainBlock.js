@@ -1,4 +1,3 @@
-import './img.css';
 import './App.css';
 
 function MainBlock() {
